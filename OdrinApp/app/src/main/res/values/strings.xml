@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">odrinapp</string>
+
+    <!--   Italian    -->
+    <string name="Granita">
+        An Italian dessert called granita, which has a smoother, more crystalline structure and Sicilian origins, is offered in a variety of forms.    </string>
+    <string name="Maraschino">
+        Maraschino is a classic Italian beverage made with hot milk and chocolate shavings that is best enjoyed in the morning.
+    </string>
+    <string name="Ristretto">
+        Ristretto is a popular drink in Italy, with a strong aroma and a lower caffeine content than espresso.
+    </string>
+
+    <!--    Spanyol     -->
+    <string name="ChocoCaliente">
+        Chocolate Caliente is a typical Spanish chocolate milk drink with a creamy texture. It is made with a mixture of milk and cornstarch and is cooked until it boils, giving it a thicker texture than other chocolate.
+    </string>
+    <string name="MangoAguaF">
+        Mango Agua Fresca is a fruit juice that is frequently combined with frozen grapes, lemon juice, mint leaves, and ice cubes. It is a popular drink in Spain.
+    </string>
+    <string name="Sangria">
+        A typical Spanish beverage called sangria is made with red wine, oranges, lemons, sugar, and cinnamon.
+    </string>
+
+    <!--    Japanese    -->
+    <string name="Aojiru">
+        Aojiru is a typical Japanese drink made from kale and green vegetables, usually in packs and drunk with water. It tastes bitter and should be mixed with milk or other fruit juices to make it taste better.
+    </string>
+    <string name="Shochu">
+        Shochu is a Japanese drink made from rice, sweet potatoes, sugarcane and barley, with the sweet potato variant being the most famous.
+    </string>
+    <string name="Sake">
+        Sake is a typical Japanese drink made from fermented rice, with a mix of umami-filled alcohol and wine-like sweetness.
+    </string>
+
+</resources>

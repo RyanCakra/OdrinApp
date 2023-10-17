@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/drinkImageinOrderSummary"
+        android:layout_width="57dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="10dp"
+        android:src="@drawable/igranita"/>
+
+    <TextView
+        android:id="@+id/drinkNameinOrderSummary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/drinkImageinOrderSummary"
+        android:layout_alignParentTop="true"
+        android:text="Drink Name"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp" />
+
+    <TextView
+        android:id="@+id/quantityinOrderSummary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/drinkNameinOrderSummary"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="186dp"
+        android:text="x"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/hasTopping"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/drinkNameinOrderSummary"
+        android:layout_alignStart="@id/drinkNameinOrderSummary"
+        android:layout_marginTop="4dp"
+        android:text="has topping"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/hasCream"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/drinkNameinOrderSummary"
+        android:layout_toEndOf="@id/hasTopping"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="4dp"
+        android:text="has cream"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/priceinOrderSummary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:text="$10"
+        android:layout_marginRight="10dp" />
+
+</RelativeLayout>
